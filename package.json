@@ -1,0 +1,26 @@
+{
+  "name": "vs-snippet-to-code",
+  "version": "0.1.0",
+  "description": "Converts Visual Studio snippets to VS Code snippets",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommck/vs-snippet-to-code.git"
+  },
+  "keywords": ["jasmine", "snippet"],
+  "author": "Tom McKearney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommck/vs-snippet-to-code/issues"
+  },
+  "homepage": "https://github.com/tommck/vs-snippet-to-code#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "glob": "^7.1.1",
+    "xml2js": "^0.4.17",
+    "yargs": "^6.6.0"
+  }
+}
